@@ -1,0 +1,37 @@
+body {
+    font-size: 14px;
+    color: navy;
+    background-image: url(http://www.dream-wallpaper.com/free-wallpaper/photography-wallpaper/sparkling-diamond-crystal-1-wallpaper/1920x1200/free-wallpaper-16.jpg)
+}
+h1 {
+    color: navy;
+    font-family: apple chancery;
+}
+h2 {
+    text-decoration: underline;
+}
+img {
+    box-shadow: 0px 0px 10px rgb(247, 9, 207);
+}
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: navy;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(247, 9, 207);
+  }
+  .column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
